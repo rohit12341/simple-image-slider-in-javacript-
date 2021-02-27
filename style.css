@@ -1,0 +1,36 @@
+*, html, body{
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+#nav-dots{
+    display: flex;   
+}
+#nav-dots .dot{
+ height: 10px;
+ width: 10px;
+ margin: 10px;
+ border: 1px solid gray;
+ border-radius: 50%;
+}
+#nav-dots .dot.active, #nav-dots .dot:hover{
+    cursor: pointer;
+    border: 2px solid black;
+   }
+
+   .item {
+    height: 300px;
+    width: 100%;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
