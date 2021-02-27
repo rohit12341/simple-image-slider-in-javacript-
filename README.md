@@ -1,1 +1,1 @@
-# simple-image-slider-in-javacript-
+# simple-image-slider-in-javascript
